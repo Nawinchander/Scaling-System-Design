@@ -1,0 +1,58 @@
+Database Scaling
+
+App
+ |
+Master DB
+ |
+Replica DB
+Replica DB
+
+Writes → Master
+Reads → Replicas
+
+
+
+Auto Scaling
+
+Automatically add servers when traffic increases.
+100 users → 1 server
+10K users → 5 servers
+1M users → 50 servers
+
+Used in AWS, GCP, Azure
+
+
+
+
+
+Microservice Scaling
+
+
+Each service scales independently.
+User Service → 5 instances
+Payment Service → 2 instances
+Video Service → 20 instances
+
+
+| Feature         | Vertical Scaling      | Horizontal Scaling |
+| --------------- | --------------------- | ------------------ |
+| Method          | Increase server power | Add more servers   |
+| Complexity      | Simple                | Complex            |
+| Limit           | Hardware limit        | Almost unlimited   |
+| Fault Tolerance | Low                   | High               |
+| Cost            | Expensive hardware    | More servers       |
+| Example         | Upgrade RAM           | Add more nodes     |
+
+
+
+Real World Example
+
+Companies like:
+
+Netflix
+Amazon
+Google
+
+use horizontal scaling + distributed systems to handle millions of users.
+
+
