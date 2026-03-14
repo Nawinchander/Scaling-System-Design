@@ -1,0 +1,24 @@
+Horizontal Scaling
+
+
+Adding multiple servers instead of increasing one server's power.
+
+Client
+   |
+Load Balancer
+ |    |    |
+S1   S2   S3
+
+
+Advantages
+
+Unlimited scaling
+Fault tolerant
+High availability
+
+Disadvantages
+
+Complex architecture
+Requires load balancer
+
+
