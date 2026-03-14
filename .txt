@@ -1,0 +1,22 @@
+Scaling = Increasing system capacity to handle growth.
+
+Two main ways:
+
+Vertical Scaling (Scale Up)
+Horizontal Scaling (Scale Out)
+
+Vertical Scaling
+Server A
+CPU: 2 cores → 16 cores
+RAM: 4GB → 64GB
+
+Advantages
+
+Simple to implement
+No major code change
+
+Disadvantages
+
+Hardware limit
+Single point of failure
+
